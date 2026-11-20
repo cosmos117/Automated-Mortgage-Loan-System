@@ -1,0 +1,182 @@
+{
+  "application": "APP-001",
+  "borrower": "JACK MERIDITH SPECTOR",
+  "source": "typed_form.docx",
+  "decision": "NOT COMPLIANT",
+  "summary": {
+    "PASS": 8,
+    "REVIEW": 11,
+    "FAIL": 5
+  },
+  "findings": [
+    {
+      "category": "Data quality",
+      "rule": "Required fields",
+      "status": "PASS",
+      "detail": "All required fields are filled in",
+      "topic": "Required fields"
+    },
+    {
+      "category": "Data quality",
+      "rule": "SSN format",
+      "status": "FAIL",
+      "detail": "'15-52-556' is not in the form 123-45-6789",
+      "topic": "identity verification social security number format"
+    },
+    {
+      "category": "Data quality",
+      "rule": "Email format",
+      "status": "PASS",
+      "detail": "JACK@GMAIL.COM",
+      "topic": "Email format"
+    },
+    {
+      "category": "Data quality",
+      "rule": "Income total",
+      "status": "PASS",
+      "detail": "Income parts add up to 73,000",
+      "topic": "Income total"
+    },
+    {
+      "category": "Data quality",
+      "rule": "Asset total",
+      "status": "PASS",
+      "detail": "Accounts add up to 30,000",
+      "topic": "Asset total"
+    },
+    {
+      "category": "Borrower",
+      "rule": "Borrower age",
+      "status": "PASS",
+      "detail": "Borrower is 25",
+      "topic": "Borrower age"
+    },
+    {
+      "category": "Income & employment",
+      "rule": "Employment history",
+      "status": "PASS",
+      "detail": "5.9 years with current employer",
+      "topic": "Employment history"
+    },
+    {
+      "category": "Income & employment",
+      "rule": "Employment consistency",
+      "status": "REVIEW",
+      "detail": "Stated experience is 1 year(s) but start date implies 5.9",
+      "topic": "stated experience consistent with employment dates"
+    },
+    {
+      "category": "Loan terms",
+      "rule": "Debt-to-income",
+      "status": "PASS",
+      "detail": "DTI 2.7%: housing 1,956 + debts 0 per month / income 73,000 (estimated with 7.0% over 30 years)",
+      "topic": "Debt-to-income"
+    },
+    {
+      "category": "Loan terms",
+      "rule": "Loan-to-value",
+      "status": "PASS",
+      "detail": "LTV 40.0% (200,000 / 500,000), limit 90% for a Second Home",
+      "topic": "Loan-to-value"
+    },
+    {
+      "category": "Property",
+      "rule": "Property units",
+      "status": "FAIL",
+      "detail": "55 units: residential mortgages cover 1-4 units, larger buildings need a commercial loan",
+      "topic": "number of dwelling units eligible properties commercial"
+    },
+    {
+      "category": "Property",
+      "rule": "Mixed-use property",
+      "status": "REVIEW",
+      "detail": "Part of the property is used for business",
+      "topic": "mixed-use property business use"
+    },
+    {
+      "category": "Property",
+      "rule": "Second-home rental income",
+      "status": "REVIEW",
+      "detail": "Rental income is expected from a second home; it cannot be used to qualify",
+      "topic": "rental income from a second home may not be used to qualify"
+    },
+    {
+      "category": "Property",
+      "rule": "Occupancy consistency",
+      "status": "FAIL",
+      "detail": "Property is listed as 'Second Home' but the declarations say primary residence = yes",
+      "topic": "occupancy consistent with declarations misrepresentation"
+    },
+    {
+      "category": "Credit history",
+      "rule": "Declaration",
+      "status": "FAIL",
+      "detail": "Had property foreclosed in the past 7 years",
+      "topic": "property foreclosed waiting period not eligible"
+    },
+    {
+      "category": "Credit history",
+      "rule": "Declaration",
+      "status": "FAIL",
+      "detail": "Is delinquent or in default on a federal debt",
+      "topic": "delinquent federal debt not eligible"
+    },
+    {
+      "category": "Credit history",
+      "rule": "Declaration",
+      "status": "REVIEW",
+      "detail": "Gave a deed-in-lieu of foreclosure in the past 7 years (4-year waiting period: check the date)",
+      "topic": "deed-in-lieu of foreclosure waiting period"
+    },
+    {
+      "category": "Credit history",
+      "rule": "Declaration",
+      "status": "REVIEW",
+      "detail": "Had a pre-foreclosure or short sale in the past 7 years (4-year waiting period: check the date)",
+      "topic": "pre-foreclosure sale short sale waiting period"
+    },
+    {
+      "category": "Credit history",
+      "rule": "Declaration",
+      "status": "REVIEW",
+      "detail": "Has outstanding judgments (must be paid off at or before closing)",
+      "topic": "outstanding judgments paid off before closing"
+    },
+    {
+      "category": "Credit history",
+      "rule": "Declaration",
+      "status": "REVIEW",
+      "detail": "Is a party to a lawsuit with possible personal liability",
+      "topic": "lawsuit potential personal financial liability"
+    },
+    {
+      "category": "Transaction",
+      "rule": "Declaration",
+      "status": "REVIEW",
+      "detail": "Has a family or business relationship with the seller (non-arm's-length)",
+      "topic": "family relationship business affiliation with seller non-arm's-length"
+    },
+    {
+      "category": "Data quality",
+      "rule": "Typed data matches scan",
+      "status": "REVIEW",
+      "detail": "borrower.contact_information.work_phone: typed '252-262-3654 x5635' but the signed form shows '252-252-3654 x5635'",
+      "topic": "typed data must match the signed application"
+    },
+    {
+      "category": "Data quality",
+      "rule": "Typed data matches scan",
+      "status": "REVIEW",
+      "detail": "borrower.current_address.duration: typed '2 years 18 months' but the signed form shows '2B years 16 months'",
+      "topic": "typed data must match the signed application"
+    },
+    {
+      "category": "Data quality",
+      "rule": "Typed data matches scan",
+      "status": "REVIEW",
+      "detail": "declarations.property_priority_lien: typed 'False' but the signed form shows 'True'",
+      "topic": "typed data must match the signed application"
+    }
+  ],
+  "regulations_used": false
+}

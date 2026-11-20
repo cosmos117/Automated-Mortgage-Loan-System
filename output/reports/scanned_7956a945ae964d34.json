@@ -1,0 +1,154 @@
+{
+  "borrower": {
+    "name": "JACK MERIDITH SPECTOR",
+    "social_security_number": "15-52-556",
+    "date_of_birth": "02/02/2000",
+    "citizenship": "U.S. Citizen",
+    "marital_status": null,
+    "dependents": {
+      "number": 1,
+      "ages": [
+        25
+      ]
+    },
+    "contact_information": {
+      "home_phone": "252-252-3564",
+      "cell_phone": "252-252-6543",
+      "work_phone": "252-252-3654 x5635",
+      "email": "JACK@GMAIL.COM"
+    },
+    "current_address": {
+      "street": "BAKER'S STREET",
+      "unit": "5",
+      "city": "NEW YORK",
+      "state": "NC",
+      "zip": "12563",
+      "country": "USA",
+      "duration": "2B years 16 months",
+      "housing_status": "Own"
+    },
+    "former_address": {
+      "street": "BAKER'S STREET",
+      "unit": "5",
+      "city": "NEW YORK",
+      "state": "NC",
+      "zip": "12563",
+      "country": "USA"
+    },
+    "mailing_address": {
+      "street": "BAKER'S STREET",
+      "unit": "5",
+      "city": "NEW YORK",
+      "state": "NC",
+      "zip": "12563",
+      "country": "USA"
+    }
+  },
+  "employment": {
+    "current_employment": {
+      "employer": "AMAZON",
+      "street": "MARY STREET",
+      "unit": "45",
+      "city": "NEWYORK",
+      "state": "NC",
+      "zip": "12599",
+      "country": "USA",
+      "phone": "253-654-6666",
+      "position": "MANAGER",
+      "start_date": "02/02/2020",
+      "experience": null,
+      "employed_by_family_member": null,
+      "income": {
+        "base": 50000,
+        "overtime": 2000,
+        "bonus": 1000,
+        "commission": 0,
+        "military_entitlements": 20000,
+        "other": null,
+        "monthly_total_income": 73000
+      }
+    }
+  },
+  "assets": {
+    "bank_and_investment_accounts": [
+      {
+        "type": "Individual Development Account",
+        "institution": "USA1",
+        "value": 10000
+      },
+      {
+        "type": "Cash Value of Life Insurance",
+        "institution": null,
+        "value": 20000
+      }
+    ],
+    "total_asset_value": 30000
+  },
+  "liabilities": {
+    "credit_cards_and_loans": [],
+    "other_liabilities_expenses": []
+  },
+  "real_estate": {
+    "owns_real_estate": false
+  },
+  "loan_information": {
+    "loan_amount": 200000,
+    "loan_purpose": "Purchase",
+    "property": {
+      "address": {
+        "street": "BAKERS STREET",
+        "unit": "5",
+        "city": "NEWYORK",
+        "state": "NC",
+        "zip": "12563",
+        "country": "USA"
+      },
+      "value": 500000,
+      "number_of_units": 55,
+      "occupancy_type": "Second Home",
+      "mixed_use_property": true,
+      "manufactured_home": false
+    },
+    "expected_rental_income": {
+      "monthly_rent": 20000,
+      "net_rent": 18000
+    }
+  },
+  "declarations": {
+    "occupy_property_as_primary_residence": true,
+    "ownership_last_3_years": true,
+    "relation_with_seller": true,
+    "borrowing_additional_money": false,
+    "applying_for_other_mortgage": null,
+    "new_credit_before_closing": false,
+    "property_priority_lien": true,
+    "co_signer": false,
+    "outstanding_judgments": true,
+    "delinquent_on_federal_debt": true,
+    "party_to_lawsuit": true,
+    "conveyed_title_in_lieu_of_foreclosure": true,
+    "pre_foreclosure_or_short_sale": true,
+    "property_foreclosed_last_7_years": true,
+    "declared_bankruptcy_last_7_years": false,
+    "previous_property_type": "Second Home",
+    "previous_title_holding": "S"
+  },
+  "military_service": {
+    "served_in_us_armed_forces": true,
+    "currently_active_duty": true,
+    "service_end_date": "02/02/2022"
+  },
+  "loan_originator_information": {
+    "organization_name": "USABANK",
+    "organization_address": "WALL STREET NEWYORK, USA",
+    "organization_nmlsr_id": "25612DE23",
+    "organization_state_license": "SDFS5642",
+    "originator_name": "MAX VESTAPPEREN",
+    "originator_nmlsr_id": "DF23521",
+    "originator_state_license": "NY5623",
+    "signature_date": "12/10/2025"
+  },
+  "lender": {
+    "agency_case_number": "US-100"
+  }
+}

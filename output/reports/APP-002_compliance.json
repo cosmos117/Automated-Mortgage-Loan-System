@@ -1,0 +1,98 @@
+{
+  "application": "APP-002",
+  "borrower": "PRIYA SAMPLE",
+  "source": "typed_form.json",
+  "decision": "NEEDS MANUAL REVIEW",
+  "summary": {
+    "PASS": 11,
+    "REVIEW": 1,
+    "FAIL": 0
+  },
+  "findings": [
+    {
+      "category": "Data quality",
+      "rule": "Required fields",
+      "status": "PASS",
+      "detail": "All required fields are filled in",
+      "topic": "Required fields"
+    },
+    {
+      "category": "Data quality",
+      "rule": "SSN format",
+      "status": "PASS",
+      "detail": "123-**-****",
+      "topic": "SSN format"
+    },
+    {
+      "category": "Data quality",
+      "rule": "Email format",
+      "status": "PASS",
+      "detail": "priya.sample@example.com",
+      "topic": "Email format"
+    },
+    {
+      "category": "Data quality",
+      "rule": "Income total",
+      "status": "PASS",
+      "detail": "Income parts add up to 10,300",
+      "topic": "Income total"
+    },
+    {
+      "category": "Data quality",
+      "rule": "Asset total",
+      "status": "PASS",
+      "detail": "Accounts add up to 107,000",
+      "topic": "Asset total"
+    },
+    {
+      "category": "Borrower",
+      "rule": "Borrower age",
+      "status": "PASS",
+      "detail": "Borrower is 37",
+      "topic": "Borrower age"
+    },
+    {
+      "category": "Income & employment",
+      "rule": "Employment history",
+      "status": "PASS",
+      "detail": "8.7 years with current employer",
+      "topic": "Employment history"
+    },
+    {
+      "category": "Loan terms",
+      "rule": "Debt-to-income",
+      "status": "PASS",
+      "detail": "DTI 29.8%: housing 2,649 + debts 420 per month / income 10,300",
+      "topic": "Debt-to-income"
+    },
+    {
+      "category": "Loan terms",
+      "rule": "Loan-to-value",
+      "status": "REVIEW",
+      "detail": "LTV 85.0% is above 80%: mortgage insurance needed",
+      "topic": "loan-to-value ratio limits mortgage insurance"
+    },
+    {
+      "category": "Property",
+      "rule": "Property units",
+      "status": "PASS",
+      "detail": "1 unit(s)",
+      "topic": "Property units"
+    },
+    {
+      "category": "Property",
+      "rule": "Occupancy consistency",
+      "status": "PASS",
+      "detail": "Primary Residence",
+      "topic": "Occupancy consistency"
+    },
+    {
+      "category": "Credit history",
+      "rule": "Declarations",
+      "status": "PASS",
+      "detail": "No red-flag declarations",
+      "topic": "Declarations"
+    }
+  ],
+  "regulations_used": false
+}
